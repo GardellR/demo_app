@@ -43,3 +43,25 @@ group :development, :test do
   gem 'spring'
 end
 
+# Demo App gems
+gem 'foundation-rails' 
+#access to MailChimp
+gem 'gibbon' 
+#uses google drive data storage
+gem 'google_drive' 
+#for static web pages
+gem 'high_voltage' 
+#forms made easy
+gem 'simple_form' 
+
+#development group
+group :development do 
+	#helps when things go wrong
+	gem 'better_errors' 
+	#surpresses messages in logs
+	gem 'quiet_assets' 
+	#generates files for application layout
+	gem 'rails_layout' 
+end
+
+
