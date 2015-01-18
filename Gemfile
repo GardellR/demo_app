@@ -44,6 +44,7 @@ group :development, :test do
 end
 
 # Demo App gems
+#zurb foundation
 gem 'foundation-rails' 
 #access to MailChimp
 gem 'gibbon' 
@@ -53,6 +54,7 @@ gem 'google_drive'
 gem 'high_voltage' 
 #forms made easy
 gem 'simple_form' 
+
 
 #development group
 group :development do 
